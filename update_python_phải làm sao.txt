@@ -1,0 +1,21 @@
+cách để update/upgrade python trong máy:
+
+Lên trang https://www.python.org/downloads/release/python-3108/
+và tải phiên bản mình muốn update về(lúc cài dặt nhớ thêm path vào).
+
+update trong anaconda:
+conda update python
+
+
+update python trong môi trường ảo: 
+python3 -m pip install --user --upgrade pip
+
+python3 -m pip --version
+#cài đặt virtualenv nếu chưa có
+python -m pip install --user virtualenv
+#hoặc
+python install virtualenv
+==========
+#bước này mới là update python nè
+virtualenv <đường dẫn python> <tên môi trường ảo>
+virtualenv --python=C:\Users\huumi\AppData\Local\Programs\Python\Python310\python.exe env
