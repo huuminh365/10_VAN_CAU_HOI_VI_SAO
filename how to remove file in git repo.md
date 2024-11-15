@@ -21,3 +21,7 @@ If you want to delete a file from remote only
 `git commit -m'message'`
 
 `git push -u origin branch`
+
+
+--ref--
+https://stackoverflow.com/questions/9701238/git-how-delete-file-from-remote-repository
